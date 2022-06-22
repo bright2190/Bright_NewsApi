@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+        /* height: 100vh; */
+    }
+    .container-fluid{
+        display: flex;
+        width: 100%;
+       /*  height: 100vh; */
+         border: 1px solid red; 
+     /*   margin: 0px auto; */
+    }
+    .content_some{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        /* height: 100vh; */
+        margin: 0px auto;
+        /* border: 2px solid blue; */
+    
+    
+    }
+    
+    .news{
+        border: 30px solid white ;
+        width: 50%;
+        /* height: 400px; */
+    }
+    .imageDiv{
+        width: 100%;
+        /* border: 2px solid white; */
+        height: 50%;
+    
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .newsHeading{
+        font-size: 23px;
+        font-weight: 700;
+        color: black;
+        /* border: 2px solid black; */
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    
+    .datePosted{
+        font-size: small;
+        /* font: 12px Verdana; */
+        color: rgb(128,128,128);
+        /* border: 2px solid black; */
+        margin-bottom: 5px;
+    }
+    
+    .contentText{
+        font: 12px Verdana;
+        /* border: 2px solid black; */
+        margin-bottom: 9px;
+    }
+    
+    .readMoreLink{
+        background: red;
+        padding: 4px;
+        color: white;
+        border-radius: 3px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: none;
+    }
+
+    
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+nav{
+background-color: turquoise;
+position: fixed;
+left:0px;
+right: 0px;
+z-index: 1;
+
+}
+
+
+nav ul{
+width: 90%;
+margin: 0% auto;
+
+}
+
+
+ul li a{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+
+footer{
+    padding:1px;
+    margin-top:1px;
+    color:#ffffff;
+    background-color:turquoise;
+    text-align: center;
+  }
+  .foot{
+   /* align-content: center;*/
+    margin:0  auto;
+    display: block;
+    justify-content: center;
+    bottom:  50%;
+    left: 50%;
+    transform: translate(-0%, 600%);
+  
+  }
